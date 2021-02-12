@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.homeicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.multimedia {
+  margin: 2%;
+}
+.item {
+  background-color: #89abe3ff;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20%;
+}
+.jumbotron-fluid {
+  background: linear-gradient(#a5d9dd, #babde4);
+}
+.display {
+  color: black;
+}
+.logo {
+  width: 418px;
+  height: 243px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.brand {
+  width: 50px;
+}
+col-sm {
+  width: 50px;
+}
+#box {
+  background-color: #d8d7d3;
+  max-width: 75%;
+  margin: 2%;
+}
+
+.homeicons img {
+  height: 60%;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  height: 80%;
+}
+footer {
+  background-color: #adc0f1;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 1.8rem;
+  position: sticky;
+}
+body {
+  background-color: #eeede8;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+a div:hover {
+  background-color: rgb(221, 227, 137);
+}
+a:link {
+  color: #000000;
+  outline: none;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+}
+p {
+  margin: 3%;
+  line-height: 30px;
+}
+h2 {
+  margin: 5%;
+}
