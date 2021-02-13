@@ -63,7 +63,6 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0;
-  height: 1.8rem;
   position: sticky;
 }
 p {
@@ -72,6 +71,11 @@ p {
 }
 h2 {
   margin: 5%;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #box {
   background-color: #d8d7d3;
