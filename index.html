@@ -1,3 +1,12 @@
+<!--Yo usaria un único archivo HTML para hacer más simples las modificaciones.  
+  Pondría el banner arriba de la navbar. 
+  El footer en pantallas grandes queda separado del margen inferior.
+  Los archivos HTML y CSS son legibles aunque recomendaría no usar las mismas clases que bootstrap para añadir estilos.
+  El título en el banner debería resaltar más.
+  Funciona bien en los diferentes tamaños de pantalla aparte del footer.
+  El código es válido.
+  Las modificaciones aplicadas a este index también las haría para las otras secciones de la página.
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,13 +18,21 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Personal Webpage Project</title>
   </head>
   <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display display-5">Hi!</h1>
+        <h2 class="display-5">Welcome to the personal website of Tomás Langebaek.</h2>
+      </div>
+    </div>
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top"
+        class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top gradiente"
       >
         <div class="container-fluid">
           <button
@@ -40,32 +57,27 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../about.html">About</a>
+                <a class="nav-link hover-highlight" href="../about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../projects.html">Projects</a>
+                <a class="nav-link hover-highlight" href="../projects.html">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../experience.html">Experience</a>
+                <a class="nav-link hover-highlight" href="../experience.html">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../interests.html">Interests</a>
+                <a class="nav-link hover-highlight" href="../interests.html">Interests</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../contact.html">Contact</a>
+                <a class="nav-link hover-highlight" href="../contact.html">Contact</a>
               </li>
             </ul>
-            <span class="navbar-text"> Tomás Langebaek </span>
+            <span class="navbar-text "> Tomás Langebaek </span>
           </div>
         </div>
       </nav>
     </header>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display">Hi!</h1>
-        <h2>Welcome to the personal website of Tomás Langebaek.</h2>
-      </div>
-    </div>
+    
     <main>
       <p>
         My name is Tomás Langebaek and this is my personal website made only
@@ -129,7 +141,7 @@
         </a>
       </div>
     </main>
-    <footer class="footer">Created by Tomas Langebaek, 2021</footer>
+    <footer class="footer gradiente-inverso position-fixed bottom-0 start-0">Created by Tomas Langebaek, 2021</footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
